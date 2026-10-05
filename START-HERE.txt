@@ -1,0 +1,51 @@
+SERVICETRACK — FINAL POLISH EDITION
+
+This ZIP contains the full MERN project and a source updater for your existing project.
+Do not delete your old project or its .data folder.
+
+A. KEEP YOUR CURRENT CUSTOMERS, JOBS AND SETTINGS (recommended)
+1. Extract this ZIP into a NEW folder. Stop the old app's dev/server terminal.
+2. Open a Command Prompt terminal in this extracted folder (where update-existing.mjs is).
+3. Run this with the actual path to your OLD servicetrack folder:
+   node update-existing.mjs "C:\Users\YOUR_NAME\Desktop\servicetrack" --check
+4. If the check passes, run it again without --check:
+   node update-existing.mjs "C:\Users\YOUR_NAME\Desktop\servicetrack"
+5. Open a terminal in your OLD project and run:
+   npm ci
+   npm run build
+6. Keep/start npm run db in one terminal. In another run npm start.
+   Open http://localhost:4000
+   Or use npm run dev and http://localhost:5173 during development.
+7. In Inventory choose Import sample catalogue. New sample items start at ZERO stock.
+   Use purchasing receipts or restock to record actual stock.
+
+The updater backs up changed source, preserves .env/.data/node_modules and refuses
+unknown local edits before changing any file. It supports the original ZIP and
+origin-fixed version. If it reports conflicts, keep the old folder and share the
+listed filenames so those edits can be merged. Do not force-overwrite them.
+No reseeding is needed to update an existing installation.
+
+B. NEW INSTALLATION
+Open the included servicetrack folder and follow README.md:
+  npm ci
+  npm run setup
+  npm run db
+Keep the database running; in another terminal:
+  npm run seed
+  npm run build
+  npm start
+Open http://localhost:4000
+
+Advisor: advisor@servicetrack.local / Demo@12345
+Technician: technician@servicetrack.local / Demo@12345
+
+OPTIONAL INTEGRATIONS
+Core flows work without external credentials. For real SMTP email and official
+Razorpay TEST checkout, follow servicetrack/docs/INTEGRATIONS.md. Add only the new
+settings from .env.example into your existing .env. No separate payment OTP was
+added; authentication is handled by the payment provider. Test mode charges no
+real money. Provider screens require internet and your own test credentials.
+
+Project guide: servicetrack/README.md
+Demo story: servicetrack/docs/DEMO_GUIDE.md
+Tests and known limits: servicetrack/docs/VERIFICATION.md

@@ -1,0 +1,264 @@
+[
+  {
+    "file": ".env.example",
+    "before": [
+      "d51546c5f11cfbf24bec3385953e03122b704102b198c3ad6bfa7643dd56c7d9"
+    ],
+    "after": "885e7be152bd3d98c2d1645348746f7d607a157ecbbe6086163fbf4d96f30630"
+  },
+  {
+    "file": "README.md",
+    "before": [
+      "eb80dab0cf00a6fa1c672565c2238d86748203cb99f6e164afb9df8c9d010031"
+    ],
+    "after": "d364586cb10e81ee2b6c959ac859ec408a8f9827d05da2678e943fcc399a2e65"
+  },
+  {
+    "file": "client/src/booking-page.jsx",
+    "before": [],
+    "after": "55666014cce84015e6dc1060e51e6c1189e55831602ab98fbb303c696c919724"
+  },
+  {
+    "file": "client/src/communication-panel.jsx",
+    "before": [],
+    "after": "13239f60fd117a1be77e1594c258a1fa36ec6c1686d6897ce0cea521d7c77d67"
+  },
+  {
+    "file": "client/src/components.jsx",
+    "before": [
+      "ad0099060b0ca31db34de10b4f111313b71cc51c7b7b5651842cd04a76873896"
+    ],
+    "after": "10789d3babddf57f0129484bd808bdb91a86018dc312908c9018e052dff5f5b0"
+  },
+  {
+    "file": "client/src/customer-page.jsx",
+    "before": [],
+    "after": "15d7edd4b4f11d66fd65d3ed6f6187db5a5a89d23c13c37349a635d5d17df3e4"
+  },
+  {
+    "file": "client/src/inventory-page.jsx",
+    "before": [],
+    "after": "a790ede90b11d0f95a40abdce7414f7d415709656eaa1e461af2f857131ac5e2"
+  },
+  {
+    "file": "client/src/job-detail.jsx",
+    "before": [
+      "2467c79f1ed1bc4a70e49d4c78beaf7971c43e88fb92d5da98005841d1c9933c"
+    ],
+    "after": "565cd9c9712e3092dc8a735cdf38045f34e8920567e8dd019875359c1b0f5027"
+  },
+  {
+    "file": "client/src/main.jsx",
+    "before": [
+      "7e1f900b877ad4fb25eb8e0c08ef97c21700dbb0dd94ff3c26a73f1c974965d2"
+    ],
+    "after": "5e76b923a05df32125da60f5bbc11b28161056cafa596d2bcc6dc850723c6c95"
+  },
+  {
+    "file": "client/src/pages.jsx",
+    "before": [
+      "dba3a8be07f22efc62d537cc8f0b156a76d4b86c99b26862b3e35f544cc9a86f"
+    ],
+    "after": "2fa6b63c6e3a9d1657ccdf074d2a7a2acadac89b0e3f3a2f9292201e2ffe3122"
+  },
+  {
+    "file": "client/src/payment-controls.jsx",
+    "before": [],
+    "after": "1116aa2b8d338bd40c21ab039f12425ddff107dfd99c54bf08ec193b6c14adf4"
+  },
+  {
+    "file": "client/src/purchasing-page.jsx",
+    "before": [],
+    "after": "79a052705d08f56c90290c57800403bcaa5066877a5b2b1ba70014b5371f4854"
+  },
+  {
+    "file": "client/src/service-workspace.jsx",
+    "before": [],
+    "after": "5dd2b5e49d45d5c173c247342ddff0ca05235871fa9571ddaa1094fe3de0cb17"
+  },
+  {
+    "file": "client/src/styles.css",
+    "before": [
+      "69b01d1d8913ce7b4fa3fce931ede0a8b80982e7f8b6da016b4aa44d8a8bc839"
+    ],
+    "after": "414a6b56d220499d6a582bdf31314728261cea7a3487e00e930d2975904e42d0"
+  },
+  {
+    "file": "client/src/vehicle-fields.jsx",
+    "before": [],
+    "after": "865a38c608261d25d4be18357a809d2e12854bcf33152063ef5c112db5fc746b"
+  },
+  {
+    "file": "docs/AI_DEVELOPMENT_LOG.md",
+    "before": [
+      "6e7182273605a2030fefa9e0fd37087aa17ca01304f0acf4248fe63f5fcbd57f"
+    ],
+    "after": "8a7d11d5d65e0d091ebf437fbaf56da540cf3f2ed7f326e3930160ccf70ec660"
+  },
+  {
+    "file": "docs/ARCHITECTURE.md",
+    "before": [
+      "58f0a06ec17be880bb4b1076de0ed9ca3cc52c55f0e0d10ae1f23d5585b90141"
+    ],
+    "after": "a5507c3dc9393434845bc4ca523d10eb9cf9fa5254c694c76adc36075ce45fda"
+  },
+  {
+    "file": "docs/DEMO_GUIDE.md",
+    "before": [
+      "c1fe6af3d7e81f17493098a92bc798a8e08e89da911bee4bb2a3e5c116879829"
+    ],
+    "after": "54d348f0cb71bed687005fc58efa4881f04d2c9b7c310e72a755bc5516ab89e4"
+  },
+  {
+    "file": "docs/INTEGRATIONS.md",
+    "before": [],
+    "after": "1aad2d028bee893ca1753319964970cb913bcbc5af861922143c05ff499af74a"
+  },
+  {
+    "file": "docs/VERIFICATION.md",
+    "before": [
+      "95ebde41dfb18b6eee28e3b995c5bde593bc23645cb8a34fc399711de46be6ff"
+    ],
+    "after": "3b199bf4000f8abcafeb92d25fa1a3e5646639c55f5fb997cd0b76984626f8c5"
+  },
+  {
+    "file": "docs/screenshots/booking-slots.png",
+    "before": [],
+    "after": "0026e13e5c6387283df26d499a87fc9b0ab3b91f32b72c2a0e9a03cd0059d0ec"
+  },
+  {
+    "file": "docs/screenshots/estimate.png",
+    "before": [],
+    "after": "927bd5429a858566466cd41144e79f230e91198c6310d5352945bad8bf0979f3"
+  },
+  {
+    "file": "docs/screenshots/invoice.png",
+    "before": [],
+    "after": "3003566079a07aa956c7404daa932b2dfc612f176b03369666794ee12c1e2151"
+  },
+  {
+    "file": "docs/screenshots/mobile.png",
+    "before": [],
+    "after": "a633588e809da26f84d340c4302da61fab79c24e21c8df33bbdb098bff516a6a"
+  },
+  {
+    "file": "docs/screenshots/overview.png",
+    "before": [],
+    "after": "9e400f9df55e091b5437ac95bbbbe098167949e5ea2f3a07adae39d8b26dcf8f"
+  },
+  {
+    "file": "docs/screenshots/purchasing.png",
+    "before": [],
+    "after": "d5fc67db842cb475fa46112f8faa6d59b217787ef7fd9c49e6da821df0313c75"
+  },
+  {
+    "file": "package-lock.json",
+    "before": [
+      "0de2c5b2924894d10dfb59585382fd2cf9e9c1d721abad8f48d43108f691bc9f"
+    ],
+    "after": "a94eed8cf312fa4c229fc2bc98788bb78839bcf74650d352e3947be24df4db4c"
+  },
+  {
+    "file": "server/assets/DejaVuSans-Bold.ttf",
+    "before": [],
+    "after": "5c1247acef7f2b8522a31742c76d6adcb5569bacc0be7ceaa4dc39dd252ce895"
+  },
+  {
+    "file": "server/assets/DejaVuSans.ttf",
+    "before": [],
+    "after": "ae7b7855e115a5966d8b1b3f80f254ccc117ec86f9965e202ee2940453837280"
+  },
+  {
+    "file": "server/assets/FONT-LICENSE.txt",
+    "before": [],
+    "after": "63d3ba759d12804c5b31a9d5940d855c1820d1f5999e6b0872eb1c7ff045fbc9"
+  },
+  {
+    "file": "server/package.json",
+    "before": [
+      "fe49e625b57f478bc04fd7141082a6b917b637bed28800780de09c836f6fba0a"
+    ],
+    "after": "5454908e5c354eb2ef73e3ac9ca1747ec0627e45bdf2635b7e1536f432557875"
+  },
+  {
+    "file": "server/src/app.js",
+    "before": [
+      "3a374d52da50425ad639dc7be34b0371620da2e063c88b90cab151fb2006a27f"
+    ],
+    "after": "0291094643c3f02c78634114c81529948857af8c850c8dfb478adf44949c6c6b"
+  },
+  {
+    "file": "server/src/catalogue.js",
+    "before": [],
+    "after": "9f0e3d759273a80a66f3314b594ebe1ea9f0747e0d2a9f3042b45cf8e03fafd8"
+  },
+  {
+    "file": "server/src/communications.js",
+    "before": [],
+    "after": "b5deda9896c3730f98b9fae63d53616068ab8ddc6e4bb018bf00026619812bb7"
+  },
+  {
+    "file": "server/src/config.js",
+    "before": [
+      "3ca755a94f33d8980a9bc9f577b8b6674c4676d167fae7e10ebd3fae4e81e80b"
+    ],
+    "after": "7bef12b9f0e97d506a33a2a9d82c732c4ae3e8c26648311b3c9033af9d4b25b9"
+  },
+  {
+    "file": "server/src/index.js",
+    "before": [
+      "5c511ba87b6a49024e0e981e5ba4d39d9de508ddf43c6f55b0d7d771d11ef7bc"
+    ],
+    "after": "c730211f355086d7538c4a10466e3407328b7ee904d0ed1e4370967936ed7f3d"
+  },
+  {
+    "file": "server/src/invoice-pdf.js",
+    "before": [],
+    "after": "e15d5c2126b1a0d22bdf0a813b8393edad8e732415192d2188ea769dc61ad34b"
+  },
+  {
+    "file": "server/src/job-service.js",
+    "before": [
+      "6b09edbe9e67e526ed1878cb36d5b8787f6e522cd48aa82b9204663b554364dc"
+    ],
+    "after": "1ce692038a37ea2b2a51bfb6691a7173e1235056822f5f810f3ee85952d65f97"
+  },
+  {
+    "file": "server/src/models.js",
+    "before": [
+      "ed7f092fb689c6504fc20d1a06fea5c4b152330492fb349749bdf62d717cd70f"
+    ],
+    "after": "7abb512b453dbaaea754eec045a28e036de7f1e8be18f9f01604ed8388be1e48"
+  },
+  {
+    "file": "server/src/payments.js",
+    "before": [],
+    "after": "3f811b9a4cf7f0fca65781d15d564c93d9d62ef9b9dbf6788efcc8f0e34f5bee"
+  },
+  {
+    "file": "server/src/purchases.js",
+    "before": [],
+    "after": "74381a97f874be4f6ae6036b05ea8dd5bfa5078b074a44bbbe56cf3a462d6dfb"
+  },
+  {
+    "file": "server/src/seed.js",
+    "before": [
+      "9a7f04a9db2759f2389a44b738bd7859f0bf8054c02c7a56b36c404c912a7f9d"
+    ],
+    "after": "d2a155a2f657f7afc5b556a3d7fa860b9829a2f21c83f97c80ce86bb9406e4dd"
+  },
+  {
+    "file": "server/src/validation.js",
+    "before": [
+      "301c6df2262aedc1c4c22c5142cdc408e5bea3c85ab4f5eeac5a0fea6afa7964"
+    ],
+    "after": "7cc929efcc795ecfd54f40efaf9d782ac148db2abcc5151532feb6fe996a3b4d"
+  },
+  {
+    "file": "server/test/workflow.test.js",
+    "before": [
+      "1da7cefdaf5a465759e68e6fea0d51f4f348ab27bc2dc5ff85df048ea7f68548"
+    ],
+    "after": "45eee2a8f04106c6f3aa72e9a70a01ffd4d71ea21b0e6b67218c416ad995fd71"
+  }
+]
