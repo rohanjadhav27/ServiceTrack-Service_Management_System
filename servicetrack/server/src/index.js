@@ -11,9 +11,9 @@ try {
     throw new Error(
       'MongoDB must run as a replica set for inventory transactions. Use npm run db.',
     );
-  const server = app.listen(config.port, '127.0.0.1', () =>
-    console.log(`ServiceTrack API: http://localhost:${config.port}`),
-  );
+const server = app.listen(config.port, '0.0.0.0', () =>
+  console.log(`ServiceTrack API listening on port ${config.port}`),
+);
   for (const signal of ['SIGINT', 'SIGTERM'])
     process.on(signal, () =>
       server.close(async () => {
