@@ -37,6 +37,8 @@ These are intentional local demonstration accounts. Do not expose the developmen
 
 The seed script preserves an existing database; it does not reset your work. Do not delete `.data` unless you deliberately want to remove local data. Keep `.env`, `.data`, and `node_modules` out of Git.
 
+For MongoDB Atlas, include the database name in `.env`, for example `MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>/Service_Track?retryWrites=true&w=majority`. A URI without a database name defaults to `test` and is rejected by this app. `Service_Track` is the database; the app creates its own collections inside it. After changing the URI, run `npm run seed` and restart the API. Existing data in other databases is left untouched.
+
 ## Run for the interview
 
 Complete the initial setup and model downloads before interview day. Build the frontend once:

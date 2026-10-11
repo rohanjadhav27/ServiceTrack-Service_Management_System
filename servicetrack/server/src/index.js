@@ -5,6 +5,7 @@ if (!config.secret || config.secret.length < 32)
   throw new Error('Run npm run setup first to create a session secret.');
 try {
   await mongoose.connect(config.mongo, { serverSelectionTimeoutMS: 5000 });
+  console.log(`Connected to MongoDB database: ${mongoose.connection.name}`);
   await Promise.all(Object.values(mongoose.models).map((model) => model.init()));
   const hello = await mongoose.connection.db.admin().command({ hello: 1 });
   if (!hello.setName)

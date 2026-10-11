@@ -1,9 +1,14 @@
 import dotenv from 'dotenv';
 import { fileURLToPath } from 'node:url';
 dotenv.config({ path: fileURLToPath(new URL('../../.env', import.meta.url)), quiet: true });
+const mongo = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/servicetrack?replicaSet=rs0';
+// Require an explicit database so Atlas URLs cannot silently use the shared "test" database.
+if (!/^mongodb(?:\+srv)?:\/\/[^/]+\/[^?\s/]+(?:\?|$)/.test(mongo)) {
+  throw new Error('MONGODB_URI must include a database name before the query string, for example /Service_Track?retryWrites=true&w=majority.');
+}
 export const config = {
   port: Number(process.env.PORT || 4000),
-  mongo: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/servicetrack?replicaSet=rs0',
+  mongo,
   secret: process.env.JWT_SECRET,
   origin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
   capacity: Math.max(1, Number(process.env.SLOT_CAPACITY) || 3),

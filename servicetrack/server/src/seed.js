@@ -6,6 +6,7 @@ import { performAction } from './job-service.js';
 import { record } from './domain.js';
 import { catalogue } from './catalogue.js';
 await mongoose.connect(config.mongo, { serverSelectionTimeoutMS: 5000 });
+console.log(`Seeding database: ${mongoose.connection.name}`);
 try {
   await Promise.all(
     [User, Customer, Vehicle, Booking, Slot, Job, Part].map((model) => model.init()),
